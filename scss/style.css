@@ -209,3 +209,12 @@ html,h1,h2,h3,h4,h5,h6,a{
    .buttons{
        margin-top: 20px;
    }
+
+   .spin{
+    width: 10px;
+    height: 10px;
+   }
+
+   .nav-link-color{
+    color: black;
+   }
