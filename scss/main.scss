@@ -1,1 +1,15 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+$primary: wheat;
+
+.navbar{
+    background: $primary;
+}
+
+nav{
+    div{
+        background: gray;
+    }
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}

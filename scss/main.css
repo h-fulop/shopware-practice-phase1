@@ -1,0 +1,11 @@
+.navbar {
+  background: wheat;
+}
+
+nav div {
+  background: gray;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}/*# sourceMappingURL=main.css.map */
