@@ -61,4 +61,10 @@ nav div {
 .btn {
   width: 100%;
   margin: 0.25em;
+}
+
+.bar {
+  border: 1px solid red;
+  width: 70%;
+  height: 200px;
 }/*# sourceMappingURL=practice.css.map */

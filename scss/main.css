@@ -61,4 +61,17 @@ nav div {
 .btn {
   width: 100%;
   margin: 0.25em;
+}
+
+.progress-bar-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2em;
+}
+.progress-bar-container .progress .progress-bar {
+  width: 50%;
+}
+
+.progress-bar:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

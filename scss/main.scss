@@ -1,1 +1,90 @@
-@import "practice";
+$primary: wheat;
+
+@mixin tile-text ($color) {
+    color: $color;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background: $primary;
+    position: relative;
+}
+
+nav{
+    div{
+        background: gray;
+    }
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.intro{
+    margin: 4em 0;
+    padding: 1em;
+}
+
+.row{
+    div{
+        h1{
+            @include tile-text(red);
+        }
+    }
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    margin: 2em;
+}
+
+.card-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.card-header{
+    @include tile-text(green);
+    background-color: $primary;
+}
+
+.genral-small-text-styling{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: bisque;
+    text-transform: uppercase;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btn{
+    @extend .genral-small-text-styling;
+    width: 100%;
+    margin: 0.25em;
+}
+
+.progress-bar-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em;
+    .progress{
+        .progress-bar{
+            width: 50%;
+        }
+    }
+}
+
+.progress-bar{
+    &:hover{
+        cursor: pointer;
+    }
+}
